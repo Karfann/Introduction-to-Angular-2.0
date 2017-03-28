@@ -28,7 +28,7 @@ export class TasksComponent implements OnInit {
   }
 
   onLoadTasks(){
-    this.tasks = this.taskService.getTasks();
+    this.taskService.getTasks();
   }
 
   onClearTasks(){
